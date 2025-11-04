@@ -9,7 +9,7 @@ class Tracker:
         with open("data.txt", "w") as f:
             f.write(str(self.count))
     
-    def reset(self):  
+    def reset(self): 
         self.count = 0  
           
     def __str__(self):
